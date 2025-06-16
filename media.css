@@ -1,0 +1,23 @@
+/* @media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+  }
+} */
+ #maindiv {
+    width: 83%;
+    z-index: 1;
+}
+
+  footer {
+      background-color: #0d243d;
+      color: #ccc;
+      padding: 1em 0;
+      width: 100%;
+     
+  }
+  .carousel-inner img {
+    height: 400px; 
+    object-fit: cover;
+   border-radius: 15px;
+   z-index:-1;
+}
