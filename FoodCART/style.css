@@ -1,0 +1,55 @@
+#navs {
+    
+    box-shadow: 5px 9px 17px rgba(0, 0, 0, 0.3); 
+    z-index:1000;
+}
+
+#nav-link{
+    letter-spacing:2px;
+   
+}
+#maindiv {
+    width: 83%;
+}
+
+.dishCard {
+    height: 16em;
+    margin-bottom: 18px;
+}
+
+    .dishCard img {
+        object-fit: cover;
+        height: 200px; /* Reduced image height */
+        border-radius: 9px;
+    }
+
+.reduceCard {
+    height: 45%;
+}
+
+
+#carouselExampleSlidesOnly {
+    height: 500px;
+}
+
+#imges1 {
+    height: 501px;
+    width: 487px
+}
+
+
+
+
+   
+#todaymeal {
+    height: 80em;
+
+}
+
+  footer {
+      background-color: #0d243d;
+      color: #ccc;
+      padding: 1em 0;
+      width: 100%;
+     
+  }

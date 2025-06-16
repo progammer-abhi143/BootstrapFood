@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../FoodCART/fontawsome/css/fontawesome.min.css">
+    <script src="../FoodCART/fontawsome/js/all.min.js"></script>
+
+</head>
+
+<body>
+    <nav id="navs"
+        class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 position-sticky top-0">
+
+        <div id="menu-item" class="container-fluid">
+
+
+
+            <!--Here right the link to show icon in left side without using div class="ms-auto" -->
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li><a href="#" id="nav-link" class="nav-link fw-bold text-primary">Home</a></li>
+                    <li><a href="#" id="nav-link" class="nav-link fw-bold text-primary">About</a></li>
+                    <li><a href="#" id="nav-link" class="nav-link fw-bold text-primary">Contact</a></li>
+                </ul>
+                <!--Here right the link to show icon in Right side-->
+
+                <div class="ms-auto">
+                    <a href="#" id="nav-link" class="nav-link fw-bold text-primary">Food</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="maindiv" class="container-fluid shadow rounded-3">
+        <div class="row shadow rounded">
+            <div class="col-sm-12 col-md-6">
+                <div id="carouselExampleSlidesOnly" class="carousel slide position-static" data-bs-ride="carousel">
+                    <div class="carousel-inner h-100 border border-light rounded-5">
+                        <div class="carousel-item h-100 active">
+                            <img src="img/greensalad.jpg" class="d-block w-100" alt="Green Salad">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/sandwich-2977251_1280.jpg" class="d-block w-100" alt="Sandwich">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slad.jpg" class="d-block w-100" alt="Salad">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <div class="mb-3">
+                    <h2>
+                        Get The Best <span class="text-success fst-italic">Food</span> From
+                        <span class="text-success fst-italic">Best Restaurants</span>
+                    </h2>
+                </div>
+                <div class="mb-1 p-3">
+                    <span><i class="fa-solid fa-seedling text-success mx-2 fs-4"></i></span>
+                    <span class="fs-5 text-dark fst-italic">Fresh Food</span>
+                </div>
+                <div class="mb-1 p-3">
+                    <span><i class="fa-solid fa-wheat-awn text-success mx-2 fs-4"></i></span>
+                    <span class="fs-5 text-dark fst-italic">Healthy Meal</span>
+                </div>
+                <div class="mb-1 p-3">
+                    <span><i class="fa-solid fa-truck text-success mx-2 fs-4"></i></span>
+                    <span class="fs-5 text-dark fst-italic">Fastest Delivery</span>
+                    <p class="py-2 text-primary">We Promise to Deliver Your Order Within 30 Min...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-1">
+                <h1 class="fst-italic">Today's Special...</h1>
+                <div id="todaymeal" class="row g-3">
+                    <!-- Added Bootstrap gap class -->
+                    <div class="col-sm-2 col-md-2 p-1  reduceCard">
+                        <!-- Reduced padding -->
+                        <div class="card dishCard">
+                            <img class="card-img-top" src="img/burger.jpg" alt="Burger">
+                            <div class="card-body">
+                                <p class="card-title fw-bolder text-primary d-flex justify-content-center">Burger</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-2 col-md-2 p-1  reduceCard">
+                        <div class="card dishCard">
+                            <img class="card-img-top" src="img/chken65.jpg" alt="Chicken 65">
+                            <div class="card-body">
+                                <p class="card-title fw-bolder text-primary d-flex justify-content-center">Chicken 65
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                        <div class="card dishCard">
+                            <img class="card-img-top" src="img/friedrice.jpg" alt="Fried Rice">
+                            <div class="card-body">
+                                <p class="card-title fw-bolder text-primary d-flex justify-content-center">Fried Rice
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                        <div class="card dishCard">
+                            <img class="card-img-top" src="img/onion-rings-246824_1280.jpg" alt="Onion Rings">
+                            <div class="card-body">
+                                <p class="card-title fw-bolder text-primary d-flex justify-content-center">Onion Rings
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                        <div class="card dishCard">
+                            <img class="card-img-top" src="img/greensalad.jpg" alt="Veg Fries">
+                            <div class="card-body">
+                                <p class="card-title fw-bolder text-primary d-flex justify-content-center">Veg Fries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                        <div class="card dishCard">
+                            <img class="card-img-top" src="img/panner_stick.jpg" alt="Paneer Stick">
+                            <div class="card-body">
+                                <p class="card-title fw-bolder text-primary d-flex justify-content-center">Paneer Stick
+                                    Tikka</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--New card item-->
+
+
+                   
+
+
+
+                    <!--<div class="mb-3">
+                    <h1 class="fst-italic">Yesterday Trending...</h1>
+                    <div id="todaymeal" class="row g-3">-->
+                    <!-- Added Bootstrap gap class -->
+                    <!--<div class="col-sm-2 col-md-2 p-1  reduceCard">-->
+                    <!-- Reduced padding -->
+                    <!--<div class="card dishCard">
+                                <img class="card-img-top" src="~/img/burger.jpg" alt="Burger">
+                                <div class="card-body">
+                                    <p class="card-title fw-bolder text-primary d-flex justify-content-center">Burger</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-2 col-md-2 p-1  reduceCard">
+                            <div class="card dishCard">
+                                <img class="card-img-top" src="~/img/chken65.jpg" alt="Chicken 65">
+                                <div class="card-body">
+                                    <p class="card-title fw-bolder text-primary d-flex justify-content-center">Chicken 65</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                            <div class="card dishCard">
+                                <img class="card-img-top" src="~/img/friedrice.jpg" alt="Fried Rice">
+                                <div class="card-body">
+                                    <p class="card-title fw-bolder text-primary d-flex justify-content-center">Fried Rice</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                            <div class="card dishCard">
+                                <img class="card-img-top" src="~/img/onion-rings-246824_1280.jpg" alt="Onion Rings">
+                                <div class="card-body">
+                                    <p class="card-title fw-bolder text-primary d-flex justify-content-center">Onion Rings</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                            <div class="card dishCard">
+                                <img class="card-img-top" src="~/img/greensalad.jpg" alt="Veg Fries">
+                                <div class="card-body">
+                                    <p class="card-title fw-bolder text-primary d-flex justify-content-center">Veg Fries</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 p-1 reduceCard">
+                            <div class="card dishCard">
+                                <img class="card-img-top" src="~/img/panner_stick.jpg" alt="Paneer Stick">
+                                <div class="card-body">
+                                    <p class="card-title fw-bolder text-primary d-flex justify-content-center">Paneer Stick Tikka</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <!-- <footer class="border-top  w-100   " >
+     <div class="container mt-2">
+         <div class="row">
+             <div class="col-sm-4 col-md-4">
+                 <h3>Food Application</h3>
+                 <p class="fw-bold">Healthy, Safe, and Tasty 😊</p>
+             </div>
+             <div class="col-sm-4 col-md-4">
+                 <h3 class="fw-bolder">Contact Us</h3>
+                 <div class="mt-3 d-flex align-items-center">
+                     <i class="fa-brands fa-square-instagram fs-4 text-danger me-2"></i>
+                     <span class="fs-5">Instagram</span>
+                 </div>
+                 <div class="mt-3 d-flex align-items-center">
+                     <i class="fa-brands fa-facebook fs-4 text-primary me-2"></i>
+                     <span class="fs-5">Facebook</span>
+                 </div>
+                 <div class="mt-3 d-flex align-items-center">
+                     <i class="fa-brands fa-square-whatsapp fs-4 text-success me-2"></i>
+                     <span class="fs-5">WhatsApp</span>
+                 </div>
+                 <div class="mt-3 d-flex align-items-center">
+                     <i class="fa-solid fa-envelope fs-4 text-warning me-2"></i>
+                     <span class="fs-5">E-mail</span>
+                 </div>
+             </div>
+             <div class="col-sm-4 col-md-4">
+                 <h3>Address</h3>
+                 <address class="fw-bold">
+                     Laxminarayanpur, Kendrapara<br />
+                     Odisha - 754289
+                 </address>
+             </div>
+         </div>
+     </div>
+ </footer> -->
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
