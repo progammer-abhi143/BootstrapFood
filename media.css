@@ -30,7 +30,15 @@
   width:220px;
   object-fit: cover;
 }
+#landing{
+      margin-top: 7em;
+margin-bottom:3em;
+}
+    #carditem{
+        margin-top: 6em;
+        margin-bottom:7em;
 
+    }
 
   
         .food-landing {
